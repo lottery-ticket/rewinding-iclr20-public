@@ -1,0 +1,5 @@
+train_batch_size: 128
+eval_batch_size: 128
+use_tpu: False
+precision: 'float32'
+lottery_checkpoint_iters: '10009,20018,40036,80072,160145,320291,640583,1281167,2562334,5124668' # 1281167/128=10009 it/epoch
